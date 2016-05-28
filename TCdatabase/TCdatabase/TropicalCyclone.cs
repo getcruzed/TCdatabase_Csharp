@@ -11,7 +11,7 @@ namespace TCdatabase
         /// <summary>
         /// (Enum) Basin where TC occured.
         /// </summary>
-        private enum basin
+        public enum basin
         {
             Atlantic,
             NE_Pacific,
@@ -19,7 +19,8 @@ namespace TCdatabase
             N_Indian,
             SW_Indian,
             SE_Indian,
-            SW_Pacific
+            SW_Pacific,
+            Unavailable
         }
 
         /// <summary>
@@ -41,6 +42,16 @@ namespace TCdatabase
         /// Number of best track entries
         /// </summary>
         private int numberOfEntries;
+
+        /// <summary>
+        /// An array to hold each BT hour observations.
+        /// </summary>
+        private BestTrackHour[] bestTrackByHour;
+
+        public enum Basin
+        {
+            
+        }
 
 
 

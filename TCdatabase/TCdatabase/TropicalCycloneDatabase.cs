@@ -12,17 +12,25 @@ namespace TCdatabase
         /// <summary>
         /// Database of all Tropical Cyclones in HURDAT
         /// </summary>
-        List<TropicalCyclone> AllStorms = new List<TropicalCyclone>();
+        List<TropicalCyclone> AllStorms;
 
         /// <summary>
         /// Database of all Tropical Cylones that underwent RI.
         /// </summary>
-        List<TropicalCyclone> RIStorms = new List<TropicalCyclone>();
+        List<TropicalCyclone> RIStorms;
 
 
         public TropicalCycloneDatabase()
         {
-            
+            /// <summary>
+            /// Database of all Tropical Cyclones in HURDAT
+            /// </summary>
+            AllStorms = new List<TropicalCyclone>();
+
+            /// <summary>
+            /// Database of all Tropical Cylones that underwent RI.
+            /// </summary>
+            RIStorms = new List<TropicalCyclone>();
         }
 
         /// <summary>

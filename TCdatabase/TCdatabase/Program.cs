@@ -60,7 +60,11 @@ namespace TCdatabase
             /// <summary>
             /// Create a TC_Database object.
             /// </summary>
-            
+            TropicalCycloneDatabase database = new TropicalCycloneDatabase();
+
+            /// <summary>
+            /// Pass fileText to file handler to create individual files.
+            /// </summary>
 
 
             /// <summary>
